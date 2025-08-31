@@ -1,16 +1,45 @@
 import React from 'react';
 import './App.css';
-import Greet from './components/greet';
-import Welcome from './components/classComponents';
-import {Hello, Hello1} from './components/hello';
+// import Greet from './components/greet';
+// import Welcome from './components/classComponents';
+// import {Hello, Hello1} from './components/hello';
+// import PropsExample from './components/props';
+// import PropsInClass from './components/propsInClass';
+import UseState from './components/useState';
 
 function App() {
   return (
     <div className="App">
-      <Greet />
+      {/* <Greet />
       <Welcome />
       <Hello />
-      <Hello1 />
+      <Hello1 /> */}
+      {/* <PropsExample name="Saikat">
+        <p>This is a p tag</p>
+      </PropsExample>
+      <PropsExample name="Kartick">
+        <button>Click here</button>
+      </PropsExample>
+      <PropsExample name="Sanjoy">
+        <b>Hello</b>
+      </PropsExample> */}
+
+      {/* <PropsInClass name="Saikat">
+        <p>This is a p tag</p>
+      </PropsInClass>
+
+      <PropsInClass name="Kartick">
+        <button>Click here</button>
+      </PropsInClass>
+      
+      <PropsInClass name="Sanjoy">
+        <b>Hello</b>
+      </PropsInClass> */}
+
+      <UseState></UseState>
+
+
+
     </div>
     /* 
       **so basically react have two type of component
